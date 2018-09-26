@@ -16,6 +16,9 @@
     <ClCompile Include="Lesson15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson15_8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lesson12.h">
@@ -31,6 +34,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="StrVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson15_8.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

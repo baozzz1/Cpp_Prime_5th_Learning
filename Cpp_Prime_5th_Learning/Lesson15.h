@@ -1,6 +1,6 @@
 #pragma once
 #ifndef _LESSON15_
-#define _LESSON15
+#define _LESSON15_
 
 #include<string>
 

@@ -120,6 +120,7 @@
     <ClCompile Include="Lesson12.cpp" />
     <ClCompile Include="Lesson14.cpp" />
     <ClCompile Include="Lesson15.cpp" />
+    <ClCompile Include="Lesson15_8.cpp" />
     <ClCompile Include="Lesson9.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -134,6 +135,7 @@
     <ClInclude Include="Lesson12.h" />
     <ClInclude Include="Lesson14.h" />
     <ClInclude Include="Lesson15.h" />
+    <ClInclude Include="Lesson15_8.h" />
     <ClInclude Include="StrBlob.h" />
     <ClInclude Include="StrVec.h" />
   </ItemGroup>

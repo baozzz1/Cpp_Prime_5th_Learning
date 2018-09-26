@@ -1,0 +1,32 @@
+#include<map>
+#include<set>
+#include<string>
+#include<iostream>
+#include<vector>
+#include<fstream>
+
+using namespace std;
+
+int main() {
+	//从文件读入数据
+	ifstream is("Lesson11_in.txt");
+	if (!is)	return 0;
+	map<string, size_t>word_count;
+	set<string> exclude = { "the","but","and","or","an","a",""};
+	string word;
+	while (is >> word) {
+		//忽略标点，转换成小写
+		auto iter = word.begin();
+		while(iter != word.end()) {
+			if ((*iter >= 'a' && *iter <= 'z') || ((*iter >= '0' && *iter <= '9'))) { ++iter; }
+			else if (*iter >= 'A' && *iter <= 'Z') { *iter = tolower(*iter); ++iter; }
+			else { iter = word.erase(iter); }					   
+		}
+		if (exclude.find(word) == exclude.end())
+			++word_count[word];
+	}
+	for (const auto &w : word_count)
+		cout << w.first << " occurs " << w.second << ((w.second > 1) ? " times" : " time") << endl;
+
+	is.close();
+}

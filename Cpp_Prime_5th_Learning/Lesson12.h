@@ -49,10 +49,15 @@ class QueryResult {
 	friend std::ostream& print(std::ostream&, const QueryResult&);
 public:
 	using line_no = std::vector<std::string>::size_type;
+	using line_it = std::set<line_no>::const_iterator;
 	QueryResult(std::string s,
 		std::shared_ptr<std::set<line_no>> p,
 		std::shared_ptr<std::vector<std::string>> f) :
 		sought(s), lines(p), files(f) {}
+	line_it cbegin() const { return lines->cbegin(); }
+	line_it cend() const { return lines->cend(); }
+	std::shared_ptr<std::vector<std::string>> get_file() const { return files; }
+	
 private:
 	std::string sought;//查询单词
 	std::shared_ptr<std::set<line_no>> lines;//出现的行号

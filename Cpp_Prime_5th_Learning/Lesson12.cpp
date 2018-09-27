@@ -71,6 +71,12 @@ TextQuery::TextQuery(ifstream &is) :file(new vector<string>) {
 		istringstream line(text);
 		string word;
 		while (line >> word) {
+			auto iter = word.begin();
+			while (iter != word.end()) {
+				if ((*iter >= 'a' && *iter <= 'z') || ((*iter >= '0' && *iter <= '9'))) { ++iter; }
+				else if (*iter >= 'A' && *iter <= 'Z') { *iter = tolower(*iter); ++iter; }
+				else { iter = word.erase(iter); }
+			}
 			auto &lines = wm[word];
 			if (!lines)
 				lines.reset(new set<line_no>);

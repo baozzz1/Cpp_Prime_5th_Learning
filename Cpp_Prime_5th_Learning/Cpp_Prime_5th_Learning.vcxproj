@@ -121,6 +121,7 @@
     <ClCompile Include="Lesson14.cpp" />
     <ClCompile Include="Lesson15.cpp" />
     <ClCompile Include="Lesson15_8.cpp" />
+    <ClCompile Include="Lesson15_9.cpp" />
     <ClCompile Include="Lesson9.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -128,6 +129,7 @@
     <Text Include="Exercise11_12_string.txt" />
     <Text Include="in.txt" />
     <Text Include="Lesson11_in.txt" />
+    <Text Include="Lesson15_9_input.txt" />
     <Text Include="out1.txt" />
     <Text Include="out2.txt" />
   </ItemGroup>
@@ -136,6 +138,7 @@
     <ClInclude Include="Lesson14.h" />
     <ClInclude Include="Lesson15.h" />
     <ClInclude Include="Lesson15_8.h" />
+    <ClInclude Include="Lesson15_9.h" />
     <ClInclude Include="StrBlob.h" />
     <ClInclude Include="StrVec.h" />
   </ItemGroup>

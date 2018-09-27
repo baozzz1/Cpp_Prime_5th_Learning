@@ -123,6 +123,7 @@
     <ClCompile Include="Lesson15_8.cpp" />
     <ClCompile Include="Lesson15_9.cpp" />
     <ClCompile Include="Lesson9.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Exercise11_12_int.txt" />

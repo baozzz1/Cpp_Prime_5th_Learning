@@ -42,10 +42,9 @@ NotQuery::eval(const TextQuery &text) const {
 	return QueryResult(rep(), ret_lines, result.get_file());
 }
 
-int main() {
+void runLesson15_9() {
 	ifstream ifile("Lesson15_9_input.txt");
 	TextQuery textquery(ifile);
-	//print(cout, Query("fiery").eval(textquery));
 	Query q = Query("fiery") & Query("bird") | Query("wind");
 	//Query q = Query("magical") | Query("him");
 	print(cout, q.eval(textquery));

@@ -40,7 +40,7 @@ public:
 	int mem(base b) { /*return b.prot_mem;*/ }	//Wrong
 };
 
-double pirce_total(ostream &os, const Quote &item, size_t n) {
+double print_total(ostream &os, const Quote &item, size_t n) {
 	double ret = item.net_price(n);
 	os << "ISBN: " << item.isbn() << " # sold: " << n << " total due: " << ret << endl;
 	return ret;
@@ -58,8 +58,8 @@ double Bulk_quote::net_price(size_t cnt) const
 int main() {
 	Quote q1("Quote", 100.0);
 	Bulk_quote q2("Bulk_Quote", 100.0, 1, 0.7);
-	pirce_total(cout, q1, 10);
-	pirce_total(cout, q2, 10);
+	print_total(cout, q1, 10);
+	print_total(cout, q2, 10);
 	q1.debug(cout);
 	q2.debug(cout);
 

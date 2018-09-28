@@ -122,6 +122,7 @@
     <ClCompile Include="Lesson15.cpp" />
     <ClCompile Include="Lesson15_8.cpp" />
     <ClCompile Include="Lesson15_9.cpp" />
+    <ClCompile Include="Lesson16.cpp" />
     <ClCompile Include="Lesson9.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>

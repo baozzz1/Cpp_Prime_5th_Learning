@@ -10,9 +10,6 @@
     <ClCompile Include="Lesson12.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson14.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Lesson15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -49,6 +46,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Lesson15_9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Lesson16.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

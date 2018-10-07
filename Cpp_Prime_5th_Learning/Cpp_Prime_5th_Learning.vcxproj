@@ -122,6 +122,7 @@
     <ClCompile Include="Lesson15_8.cpp" />
     <ClCompile Include="Lesson15_9.cpp" />
     <ClCompile Include="Lesson16.cpp" />
+    <ClCompile Include="Lesson17.cpp" />
     <ClCompile Include="Lesson9.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
@@ -135,6 +136,7 @@
     <Text Include="out2.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header.h" />
     <ClInclude Include="Lesson12.h" />
     <ClInclude Include="Lesson14.h" />
     <ClInclude Include="Lesson15.h" />

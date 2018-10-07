@@ -2,19 +2,7 @@
 #ifndef LESSON12
 #define LESSON12
 
-#include<memory>
-#include<string>
-#include<vector>
-#include<map>
-#include<set>
-#include<list>
-#include<deque>
-#include<iterator>
-#include<functional>
-#include<new>
-#include<iostream>
-#include<sstream>
-#include<fstream>
+#include"header.h"
 
 class StrBlob {
 public:

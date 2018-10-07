@@ -2,11 +2,7 @@
 #ifndef _LESSON15_8_
 #define _LESSON15_8_
 
-#include<memory>
-#include<string>
-#include<iostream>
-#include<set>
-#include<vector>
+#include"header.h"
 
 class Quote {
 public:

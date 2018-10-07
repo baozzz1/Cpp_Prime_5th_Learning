@@ -2,11 +2,7 @@
 #ifndef  _LESSON16_
 #define _LESSON16_
 
-#include<iostream>
-#include<vector>
-#include<string>
-#include<list>
-#include<algorithm>
+#include"header.h"
 
 template <typename T, typename F = std::less<T>>
 int compare(const T &v1, const T &v2, F f = F()) {
@@ -27,12 +23,12 @@ T func16_4(T beg, T end, const U &target) {
 }
 
 template <typename> class BlobPtr;
-template <typename T>
-bool operator==(const Blob<T>&, const Blob<T>&);
+//template <typename T>
+//bool operator==(const Blob<T>&, const Blob<T>&);
 
 template <typename T> class Blob {
 	friend class BlobPtr<T>;
-	friend bool operator==<T>(const Blob<T>&, const Blob<T>&);
+	//friend bool operator==<T>(const Blob<T>&, const Blob<T>&);
 public:
 	typedef T value_type;
 	typedef typename std::vector<T>::size_type size_type;
@@ -71,7 +67,7 @@ public:
 	BlobPtr& operator--();
 
 private:
-	std::shared_prt<std::vector<T>>
+	std::shared_ptr<std::vector<T>>
 		check(std::size_t, const std::string&) const;
 	std::weak_ptr<std::vector<T>> wptr;
 	std::size_t curr;

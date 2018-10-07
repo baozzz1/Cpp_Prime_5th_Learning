@@ -2,19 +2,7 @@
 #ifndef _LESSON_14_
 #define _LESSON_14_
 
-#include<memory>
-#include<string>
-#include<vector>
-#include<map>
-#include<set>
-#include<list>
-#include<deque>
-#include<iterator>
-#include<functional>
-#include<new>
-#include<iostream>
-#include<sstream>
-#include<fstream>
+#include"header.h"
 
 class Sales_data {
 	friend std::ostream &operator<<(std::ostream&, const Sales_data&);

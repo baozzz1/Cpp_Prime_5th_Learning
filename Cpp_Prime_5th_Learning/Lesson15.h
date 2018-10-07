@@ -2,7 +2,7 @@
 #ifndef _LESSON15_
 #define _LESSON15_
 
-#include<string>
+#include"header.h"
 
 class Quote {
 public:

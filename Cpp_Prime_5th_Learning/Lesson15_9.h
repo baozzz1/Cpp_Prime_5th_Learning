@@ -2,12 +2,7 @@
 #ifndef _LESSON15_9_
 #define _LESSON15_9_
 
-#include<memory>
-#include<string>
-#include<iostream>
-#include<set>
-#include<vector>
-#include<algorithm>
+#include"header.h"
 
 //include with "Lesson12.h"
 #include"Lesson12.h"

@@ -57,6 +57,9 @@
     <ClInclude Include="header.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Lesson17.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Exercise11_12_int.txt">

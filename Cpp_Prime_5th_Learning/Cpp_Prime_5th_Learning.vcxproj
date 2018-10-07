@@ -143,6 +143,7 @@
     <ClInclude Include="Lesson15_8.h" />
     <ClInclude Include="Lesson15_9.h" />
     <ClInclude Include="Lesson16.h" />
+    <ClInclude Include="Lesson17.h" />
     <ClInclude Include="StrBlob.h" />
     <ClInclude Include="StrVec.h" />
   </ItemGroup>

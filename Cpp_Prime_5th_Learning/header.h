@@ -18,5 +18,6 @@
 #include<sstream>
 #include<fstream>
 #include<tuple>
+#include<numeric>
 
 #endif

@@ -3,6 +3,8 @@
 #define _LESSON17_
 
 #include"header.h"
+#include<bitset>
+#include<regex>
 
 /*
 class QueryResult {

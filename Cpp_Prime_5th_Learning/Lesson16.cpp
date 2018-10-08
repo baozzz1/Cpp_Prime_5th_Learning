@@ -42,7 +42,6 @@ void Blob<T>::pop_back() {
 	data->pop_back();
 }
 
-
 template <typename T>
 BlobPtr<T>& BlobPtr<T>::operator++() {
 	BlobPtr ret = *this;
@@ -50,14 +49,10 @@ BlobPtr<T>& BlobPtr<T>::operator++() {
 	return ret;
 }
 
-
-
-
 void runLesson16() {
 	vector<int> vec = { 0,1,2,3,4,5,6,7,8,9 };
 	list<string> lst = { "ling","yi","er","san","si","wu","liu","qi","ba","jiu" };
 	func16_4(vec.cbegin(), vec.cend(), 9);
 	func16_4(lst.cbegin(), lst.cend(), "shiyi");
-
 
 }
